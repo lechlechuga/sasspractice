@@ -4,5 +4,24 @@
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: url('../')
+    background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+    ),
+    url('../img/49086963654db1a5049319e7ce06e1be.jpg');
+    background-size: cover;
+
+    &_name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        border-bottom: 2px solid #fff;
+
+        &--last {
+            color: $accent-color;
+            font-weight: 700;
+        }
+    }
 }

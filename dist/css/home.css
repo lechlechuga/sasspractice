@@ -6,6 +6,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: url(../img);
+  background: -webkit-gradient(linear, left top, right top, from(rgba)) url("../img/49086963654db1a5049319e7ce06e1be.jpg");
+  background: linear-gradient(to right, rgba) url("../img/49086963654db1a5049319e7ce06e1be.jpg");
+  background-size: cover;
 }
 /*# sourceMappingURL=home.css.map */
