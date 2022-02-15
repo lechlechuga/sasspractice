@@ -11,7 +11,7 @@
     &_burger{
         position: absolute;
         right: 0;
-        top: .5rem;
+        top: 0.5rem;
         width: 28px;
         height: 3px;
         background: set-text-color($primary-color);
@@ -79,6 +79,19 @@
 
         &.open{
             transform: translateY(0);
+        }
+
+        &_item{
+            transform: translateX(100vw);
+            @include transition-ease;
+
+            &.open {
+                transform: translateX(0);
+            }
+
+            &.active > a {
+                color: $secondary-color;
+            }
         }
     }
 }
