@@ -1,0 +1,26 @@
+.about{
+    padding-bottom: 2rem;
+
+    &_bio-image{
+        height: 50vh;
+        width: 100%;
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+    ),
+    url('../img/49086963654db1a5049319e7ce06e1be.jpg') center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    }
+
+    p{
+        margin-bottom: 2rem;
+
+    }
+}

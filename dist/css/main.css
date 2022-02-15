@@ -13,15 +13,15 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(203, 142, 126, 0.9)), to(rgba(203, 142, 126, 0.3))), url("../img/49086963654db1a5049319e7ce06e1be.jpg");
-  background: linear-gradient(to right, rgba(203, 142, 126, 0.9), rgba(203, 142, 126, 0.3)), url("../img/49086963654db1a5049319e7ce06e1be.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(203, 142, 126, 0.9)), to(rgba(203, 142, 126, 0.3))), url("../img/49086963654db1a5049319e7ce06e1be.jpg") center top;
+  background: linear-gradient(to right, rgba(203, 142, 126, 0.9), rgba(203, 142, 126, 0.3)), url("../img/49086963654db1a5049319e7ce06e1be.jpg") center top;
   background-size: cover;
 }
 
 .home_name {
   font-size: 5rem;
   padding-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
 }
 
@@ -121,7 +121,7 @@
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #cb8e7e;
+  background: #735751;
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
@@ -151,6 +151,69 @@
   color: #f6f4f1;
 }
 
+.nav .menu-nav_link {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav .menu-nav_link:hover {
+  color: #f6f4f1;
+}
+
+.menu-nav_item:nth-child(1) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.menu-nav_item:nth-child(2) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.menu-nav_item:nth-child(3) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.menu-nav_item:nth-child(4) {
+  -webkit-transition-delay: 0.55s;
+          transition-delay: 0.55s;
+}
+
+.about {
+  padding-bottom: 2rem;
+}
+
+.about_bio-image {
+  height: 50vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(203, 142, 126, 0.9)), to(rgba(203, 142, 126, 0.3))), url("../img/49086963654db1a5049319e7ce06e1be.jpg") center top;
+  background: linear-gradient(to right, rgba(203, 142, 126, 0.9), rgba(203, 142, 126, 0.3)), url("../img/49086963654db1a5049319e7ce06e1be.jpg") center top;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
+
 body {
   background-color: #cb8e7e;
   color: #fff;
@@ -166,6 +229,10 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: #f6f4f1;
 }
 
 header {

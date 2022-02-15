@@ -10,13 +10,13 @@
             rgba($primary-color, 0.9),
             rgba($primary-color, 0.3)
     ),
-    url('../img/49086963654db1a5049319e7ce06e1be.jpg');
+    url('../img/49086963654db1a5049319e7ce06e1be.jpg') center top;
     background-size: cover;
 
     &_name{
         font-size: 5rem;
         padding-bottom: 1rem;
-        margin-top: 1rem;
+        margin-bottom: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
 
         &--last {
